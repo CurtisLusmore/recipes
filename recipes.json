@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Curry",
+    "steps": [
+      { "step": 1, "item": "Onion", "amount": "1" },
+      { "step": 2, "item": "Tomato", "amount": "2" },
+      { "step": 3, "item": "Greek Yoghurt", "amount": "3tbsp" },
+      { "step": 4, "item": "Shan Curry Mix", "amount": "3tbsp" },
+      { "step": 5, "item": "Beef Brisket", "amount": "500g" },
+      { "step": 6, "item": "Water", "amount": "3cp" },
+      { "step": 7, "items": [ 1 ] },
+      { "step": 8, "items": [ 7, 2 ] },
+      { "step": 9, "items": [ 8, 3, 4 ] },
+      { "step": 10, "items": [ 9, 5 ] },
+      { "step": 11, "items": [ 10, 6 ] }
+    ]
+  },
+  {
+    "name": "Naan",
+    "steps": [
+      { "step": 1, "item": "Water", "amount": "1cp" },
+      { "step": 2, "item": "Yeast", "amount": "1tsp" },
+      { "step": 3, "item": "Greek Yoghurt", "amount": "2tbsp" },
+      { "step": 4, "item": "Flour", "amount": "2cp" },
+      { "step": 5, "item": "Butter", "amount": "" },
+      { "step": 6, "item": "Garlic", "amount": "" },
+      { "step": 7, "item": "Cheese", "amount": "" },
+      { "step": 8, "items": [ 1, 2 ] },
+      { "step": 9, "items": [ 8, 3 ] },
+      { "step": 10, "items": [ 9, 4 ] },
+      { "step": 11, "items": [ 5, 6 ] },
+      { "step": 12, "items": [ 10, 11 ] },
+      { "step": 13, "items": [ 12, 7 ] }
+    ]
+  },
+  {
+    "name": "Paella",
+    "steps": [
+      { "step": 1, "item": "Chicken", "amount": "500g" },
+      { "step": 2, "item": "Onion", "amount": "1" },
+      { "step": 3, "item": "Capsicum", "amount": "1" },
+      { "step": 4, "item": "Tomato", "amount": "1" },
+      { "step": 5, "item": "Chicken Stock", "amount": "500mL" },
+      { "step": 6, "item": "Cumin", "amount": "1tsp" },
+      { "step": 7, "item": "Turmeric", "amount": "1tsp" },
+      { "step": 8, "item": "Rice", "amount": "1.5cp" },
+      { "step": 9, "items": [ 1 ] },
+      { "step": 10, "items": [ 2, 3, 4 ] },
+      { "step": 11, "items": [ 9, 10, 5, 6, 7, 8 ], "comment": "15m" }
+    ]
+  },
+  {
+    "name": "Pancakes",
+    "steps": [
+      { "step": 1, "item": "Flour", "amount": "1.5cp" },
+      { "step": 2, "item": "Baking Powder", "amount": "3.5tsp" },
+      { "step": 3, "item": "Milk", "amount": "1.5cp" },
+      { "step": 4, "item": "Butter", "amount": "50g" },
+      { "step": 5, "item": "Egg", "amount": "1" },
+      { "step": 6, "item": "Vanilla Extract", "amount": "1mL" },
+      { "step": 7, "items": [ 1, 2 ] },
+      { "step": 8, "items": [ 3, 4, 5, 6 ] },
+      { "step": 9, "items": [ 7, 8 ] },
+      { "step": 10, "items": [ 9 ], "comment": "Low heat" }
+    ]
+  }
+]

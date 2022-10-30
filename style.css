@@ -1,0 +1,8 @@
+nav > ul {
+  list-style: none;
+}
+
+main > dialog {
+  font-family: monospace;
+  white-space: pre;
+}
