@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Cascadia Mono';
+
+  src: url('CascadiaMono.woff2')
+}
+
 nav > ul {
   list-style: none;
 }
 
 main > dialog {
-  font-family: monospace;
+  font-family: 'Cascadia Mono', monospace;
   white-space: pre;
 }
